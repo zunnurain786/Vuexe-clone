@@ -1,0 +1,66 @@
+.add-founder-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 140px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.add-founder-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-founder-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-founder-form div {
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.add-founder-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.add-founder-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-founder-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-founder-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Success and Error Messages */
+.success-message {
+  color: green;
+  font-size: 1rem;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 15px;
+  text-align: center;
+}

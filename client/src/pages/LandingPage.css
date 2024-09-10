@@ -1,0 +1,50 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.horizontal-collapsed-menu {
+  width: 100%;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid #ccc;
+}
+
+.hero {
+  flex: 1 1 auto;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.features {
+  flex: 1 1 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cta {
+  flex: 0 1 100px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.download-btn {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

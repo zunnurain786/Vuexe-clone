@@ -1,0 +1,53 @@
+.crm-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.crm-header {
+  height: 60px;
+  background-color: #20232a;
+}
+
+.crm-main {
+  display: flex;
+  flex: 1;
+}
+
+.crm-sidebar {
+  width: 200px;
+  background-color: #282c34;
+}
+
+.crm-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.crm-section {
+  background-color: #3a3f47;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.crm-footer {
+  height: 40px;
+  background-color: #20232a;
+}
+
+.download-button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}

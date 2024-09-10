@@ -1,0 +1,40 @@
+.wizard-examples {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  border: 1px solid #ccc;
+}
+
+.wizard-header {
+  flex: 0 1 80px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.wizard-steps {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.wizard-sidebar {
+  flex: 0 1 300px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.download-btn {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

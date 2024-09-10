@@ -1,0 +1,65 @@
+.notifications-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.notifications-header {
+  height: 60px;
+  background-color: #007bff;
+}
+
+.notifications-body {
+  display: flex;
+  flex: 1;
+}
+
+.notifications-sidebar {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+.notifications-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.notification-item {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.notification-time {
+  font-size: 0.9em;
+  color: #6c757d;
+}
+
+.notifications-footer {
+  height: 40px;
+  background-color: #007bff;
+}
+
+.download-button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}

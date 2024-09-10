@@ -1,0 +1,61 @@
+.kanban-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.kanban-header {
+  height: 60px;
+  background-color: #007bff;
+}
+
+.kanban-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.kanban-board {
+  display: flex;
+  gap: 20px;
+}
+
+.kanban-column {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  min-height: 300px;
+}
+
+.kanban-column h3 {
+  margin-top: 0;
+}
+
+.kanban-card {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.kanban-footer {
+  height: 40px;
+  background-color: #007bff;
+}
+
+.download-button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}

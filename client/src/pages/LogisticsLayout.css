@@ -1,0 +1,33 @@
+.logistics-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.section {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+}
+
+.header {
+  flex: 0 1 100px; /* Header height */
+  background-color: #f1f1f1;
+}
+
+.content {
+  flex: 1 1 auto; /* Content area */
+  background-color: #fff;
+}
+
+.footer {
+  flex: 0 1 50px; /* Footer height */
+  background-color: #f1f1f1;
+}
+
+.download-btn {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

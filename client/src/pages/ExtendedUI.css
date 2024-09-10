@@ -1,0 +1,40 @@
+.extended-ui {
+  padding: 20px;
+}
+
+.ui-section {
+  margin-bottom: 20px;
+}
+
+.ui-elements {
+  display: flex;
+  gap: 10px;
+}
+
+.ui-card,
+.ui-button,
+.ui-chart {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.ui-card {
+  text-align: center;
+}
+
+.ui-button {
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-download {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

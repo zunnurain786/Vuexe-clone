@@ -1,0 +1,110 @@
+.home-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+/* First Row - Summary Cards */
+.row {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  text-align: center;
+}
+
+.card:not(:last-child) {
+  margin-right: 20px;
+}
+
+/* Second Row - How to Use Section */
+.how-to-use h2 {
+  margin-bottom: 10px;
+}
+
+.how-to-use p {
+  margin-bottom: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.option {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  text-align: center;
+}
+
+.option span {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Third Row - Invite Friends */
+.invite-friends h2 {
+  margin-bottom: 10px;
+}
+
+.invite-section {
+  display: flex;
+  justify-content: center;
+}
+
+.invite-section button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.invite-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Fourth Row - Referrals List */
+.referrals-list h2 {
+  margin-bottom: 10px;
+}
+
+.referrals-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.referrals-list th,
+.referrals-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.referrals-list th {
+  background-color: #007bff;
+  color: white;
+}
+
+.referrals-list td {
+  color: #333;
+}

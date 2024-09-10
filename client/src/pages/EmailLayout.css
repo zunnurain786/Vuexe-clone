@@ -1,0 +1,43 @@
+.email-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 600px; /* Adjust width for email layout */
+  margin: 0 auto;
+}
+
+.email-header {
+  height: 60px;
+  background-color: #007bff;
+}
+
+.email-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+}
+
+.email-body {
+  margin: 0;
+}
+
+.email-footer {
+  height: 40px;
+  background-color: #007bff;
+}
+
+.download-button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}

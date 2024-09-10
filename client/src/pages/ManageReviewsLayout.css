@@ -1,0 +1,61 @@
+.manage-reviews-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.manage-reviews-header {
+  height: 60px;
+  background-color: #007bff;
+}
+
+.manage-reviews-body {
+  display: flex;
+  flex: 1;
+}
+
+.manage-reviews-sidebar {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+.manage-reviews-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.review-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 100px;
+}
+
+.manage-reviews-footer {
+  height: 40px;
+  background-color: #007bff;
+}
+
+.download-button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}

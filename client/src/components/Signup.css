@@ -1,0 +1,101 @@
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f7f9fc;
+  padding: 20px;
+  margin-top: -150px;
+}
+
+.signup-page h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.signup-page h2:hover {
+  color: #007bff;
+}
+
+.Register {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.Register:hover {
+  transform: scale(1.02);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: calc(
+    100% - 22px
+  ); /* Adjust width to account for padding and borders */
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button.btn-dark {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.btn-dark:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.password-strength {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signup-page h2 {
+    font-size: 1.5rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    font-size: 0.9rem;
+  }
+
+  button.btn-dark {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+}
